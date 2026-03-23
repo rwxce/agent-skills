@@ -1,0 +1,25 @@
+{
+  "skill_name": "modern-angular-architect",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use modern-angular-architect. Analyze this Angular repo and plan how to add an orders feature with its own route, page, API service, and local models. Do not write files.",
+      "expected_output": "A repo-specific architecture snapshot plus a concrete file-by-file plan for a routed feature, including route entrypoint, page/shell, data-access, models, implementation sequence, and explicit risks or assumptions."
+    },
+    {
+      "id": 2,
+      "prompt": "I want to add a reusable status badge to the invoices area of this Angular app. Use modern-angular-architect and tell me exactly where the files should go and why. Do not change any files.",
+      "expected_output": "A plan that keeps the component inside the invoices feature unless the repo proves broader reuse, with concrete paths, responsibilities, and rationale."
+    },
+    {
+      "id": 3,
+      "prompt": "Use modern-angular-architect. This repo mixes older NgModules and newer standalone code. Plan how to add a notifications feature without forcing a migration, and explain what to modify.",
+      "expected_output": "A mixed-architecture-aware plan that follows the nearest existing convention, avoids broad rewrites, and clearly marks new versus modified files."
+    },
+    {
+      "id": 4,
+      "prompt": "Analyze this nearly empty Angular repo and plan a modern feature structure for adding authentication with route protection. Use modern-angular-architect in plan mode only.",
+      "expected_output": "A greenfield-friendly modern Angular plan using feature-oriented structure, clear core/shared boundaries only where justified, and explicit note of assumptions."
+    }
+  ]
+}
