@@ -192,6 +192,6 @@ For teams doing heavy AI-assisted development, having access to both gives you f
 ## Credits
 
 This document is copied from:
-[https://github.com/shakacode/<repo>/<path-to-file>](https://github.com/shakacode/claude-code-commands-skills-agents/blob/main/docs/claude-code-with-codex.md)
+[https://github.com/shakacode/claude-code-commands-skills-agents](https://github.com/shakacode/claude-code-commands-skills-agents/blob/main/docs/claude-code-with-codex.md)
 
 Original author: ShakaCode
